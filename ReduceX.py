@@ -13,7 +13,7 @@ def main():
     Data = [13,12,8,10,11,20]
     print("Input Data is: ",Data)
 
-    fData = list(filter(CheckEven, Data))
+    fData = list(filter(CheckEven, Data))I
     print("Data after filter: ",fData)
 
     mData = list(map(Increament, fData))
